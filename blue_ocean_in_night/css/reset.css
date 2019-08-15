@@ -1,0 +1,8 @@
+body{
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background:  #031321;
+  font-family: consolas;
+  color: #2196f3;
+}
