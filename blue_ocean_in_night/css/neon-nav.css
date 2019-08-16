@@ -17,6 +17,11 @@ nav div{
   display: flex;
   flex-direction: row;
 }
+@media (max-width: 360px) {
+  nav div{
+    flex-direction: column;
+  }
+}
 a{
   text-decoration: none;
 }
