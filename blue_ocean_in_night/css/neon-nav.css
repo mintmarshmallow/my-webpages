@@ -1,3 +1,5 @@
+
+
 h1{
   color: #031321;
   text-transform: uppercase;
@@ -31,7 +33,18 @@ a.nav{
   align-items: center;
   text-align: center;
 }
+a.nav div{
+  font-size: 1.5rem;
+}
+@media (max-width: 500px) {
+  a.nav div{
+    font-size: 5vw;
+  }
+  a.nav{
+    padding: 1rem 2vw;
+  }
 
+}
 a.nav:hover{
   color: #031321;
   background: #2196f3;
